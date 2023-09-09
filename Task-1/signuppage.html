@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="signup.css">
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header id="header">
+        <nav>
+         <ul class="nav-bar">
+             <li><a href="index.html">Home</a></li>
+             <li><a href="loginpage.html">Login</a></li>
+         </ul>
+        </nav>
+     </header>
+    <div class="container">
+        <form action="">
+            <h1>SignUp</h1>
+            <div class="input_box">
+                <input type="email" id="signupEmail" placeholder="Enter Email" required>
+            </div>
+            <div class="input_box">
+                <input type="password" id="signupPassword" placeholder="Enter Password" required>
+            </div>
+            <button type="submit" onclick="signUp()">Create Account</button>
+            <div class="create">
+                <p>Already have an account? <a href="loginpage.html">Login</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
